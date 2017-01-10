@@ -1,5 +1,4 @@
-Burp Randomizer Extension
-=========================
+# Burp Randomizer Extension
 
 You want to scan a particular request of a web app, but there is a
 nasty parameter, which needs a different value on each request
@@ -7,8 +6,7 @@ nasty parameter, which needs a different value on each request
 solution for your issue. It acts as session handling rule and replaces
 a defined token with a random value.
 
-Usage
------
+## Usage
 
 Define a session handling rule with a Burp extension action. Choose
 randomizer. Don't forget to set an appropriate scope of the session
@@ -19,8 +17,7 @@ randomization is required. Then send this request to the Scanner,
 Intruder or some different tool. The extension now replaces each
 occurence of #RANDOM# with a random token.
 
-Configuration
--------------
+## Configuration
 
 Placeholder, token length and character set can be set in a
 configuration section at the beginning of the script code.
