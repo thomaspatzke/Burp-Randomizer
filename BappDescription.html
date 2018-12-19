@@ -6,10 +6,10 @@ into a specified location within requests.</p>
 	<li>In the session handling options, create a rule which invokes the 
 	Randomizer action that is registered by the extension, and select a suitable 
 	scope for the rule.</li>
-	<li>Place the string #RANDOM# into the relevant request at the location 
-	where a random value is required.</li>
+	<li>Place the string #RANDOM# or #RANDOMNUM# into the relevant request at the location 
+	where a random value or number is required.</li>
 	<li>Let Burp operate on the request in the normal way (via Scanner, 
 	Intruder, etc.).</li>
-	<li>The extension will replace the string #RANDOM# with a random value in 
+	<li>The extension will replace the string placeholder with a random value in 
 	each request.</li>
 </ul>

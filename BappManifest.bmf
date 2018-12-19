@@ -2,8 +2,8 @@ Uuid: 36d6d7e35dac489b976c2f120ce34ae2
 ExtensionType: 2
 Name: Request Randomizer
 RepoName: request-randomizer
-ScreenVersion: 1.2
-SerialVersion: 3
+ScreenVersion: 1.3
+SerialVersion: 4
 MinPlatformVersion: 0
 ProOnly: False
 Author: Thomas Patzke
