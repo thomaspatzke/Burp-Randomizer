@@ -1,3 +1,7 @@
+# ARCHIVED PROJECT
+
+This project isn't maintained anymore by me. Feel free to fork it!
+
 # Burp Randomizer Extension
 
 You want to scan a particular request of a web app, but there is a
